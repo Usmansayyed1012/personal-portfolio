@@ -1,0 +1,783 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #000000d4;
+    position: relative;
+    z-index: 1;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+nav .menu ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+nav ul li {
+    font-size: 17px;
+    margin: 10px;
+    margin-top: 10px;
+    color: #F5F5F5;
+}
+
+nav .search {
+    border: 1px solid;
+    margin: 15px;
+    padding: 6px 5px 6px 10px;
+    border-radius: 5px;
+    background-color: gray;
+}
+
+nav .search i {
+    color: #ffffff;
+    font-size: 12px;
+    padding-right: 5px;
+
+}
+
+
+nav .search input {
+    border: none;
+    background: gray;
+    width: 100px;
+}
+
+nav .search input::placeholder {
+    color: #fff;
+}
+
+.statement {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.statement span {
+    position: absolute;
+    width: 670px;
+    z-index: 0;
+    width: 54%;
+    display: flex;
+    justify-content: center;
+    margin-top: -3px;
+    padding: 10px 10px 0px 10px;
+    border-radius: 0px 0px 10px 10px;
+    background-color: rgb(255, 255, 197);
+    border: 2px solid yellow;
+}
+
+.statement .logo {
+    margin-top: 8px;
+}
+
+.statement .text p {
+    padding: 5px;
+    margin-right: 5px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.statement .link {
+    margin-top: 10px;
+    color: #0948B4;
+}
+
+.statement .link a {
+    font-size: 14px;
+    padding: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.intro {
+    margin-top: -40px;
+}
+
+.intro video {
+    margin-top: -40px;
+    position: relative;
+    z-index: -3;
+}
+
+#introduction-Data {
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#introduction-Data .personal-Data h2 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#introduction-Data .personal-Data h6 {
+    font-size: 30px;
+    line-height: 60px;
+    font-weight: 500;
+}
+
+#introduction-Data .personal-Data p {
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-align: left;
+    color: #555555;
+
+}
+
+#introduction-Data .personal-Data .resume {
+    background: #0948B4;
+    padding: 8px 20px 8px 20px;
+    margin-right: 10px;
+    border: none;
+    gap: 10px;
+    border-radius: 8px;
+
+}
+
+#introduction-Data .personal-Data .resume a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+
+}
+
+#introduction-Data .personal-Data .my-work {
+    padding: 10px 25px 10px 25px;
+    gap: 10px;
+    border-radius: 8px;
+    border: 2px solid #0948B4;
+    background-color: #fff;
+
+
+}
+
+#introduction-Data .personal-Data .my-work a {
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#introduction-Data .personal-img img {
+    margin-top: -300px;
+    position: relative;
+    width: 600px;
+    height: 720px;
+
+}
+
+#my-capability {
+    margin: 0px 100px 0px 100px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+    box-shadow: 0px 0px 15px 0px gray;
+    border-radius: 10px;
+}
+
+#my-capability .container {
+    background: whitesmoke;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+    border-radius: 10px;
+    margin-top: -5px;
+
+}
+
+#my-capability .container h2 {
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+    margin-bottom: 10px;
+}
+
+#my-capability .container hr {
+    margin: 0px 200px 0px 200px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+#my-capability .container .capability {
+    display: flex;
+    justify-content: center;
+
+}
+
+#my-capability .container .capability p {
+    padding-right: 151px;
+    padding-left: 151px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+#expertise {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 70px;
+    padding: 5px;
+}
+
+#expertise h2 {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+#expertise .my-expertise {
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    background: whitesmoke;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px 0px gray;
+    border-radius: 10px;
+}
+
+#expertise .my-expertise .code-img img {
+    width: 200px;
+    margin: 10px;
+}
+
+#expertise .my-expertise .expertise-data h2 {
+    font-size: 40px;
+    margin-bottom: 25px;
+}
+
+#expertise .my-expertise .expertise-data p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #555555;
+
+}
+
+#tech-skills {
+    margin-bottom: 70px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#tech-skills h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+#tech-skills .skills {
+    display: flex;
+    overflow: scroll;
+    scrollbar-width: none;
+    border: none;
+}
+
+#tech-skills .skills .vscode {
+    margin-right: 40px;
+    font-size: 29.93px;
+    font-weight: 600;
+    line-height: 35.91px;
+    margin-left: 40px;
+}
+
+#tech-skills .skills .git {
+    margin-right: 40px;
+    font-size: 29.93px;
+    font-weight: 600;
+    line-height: 35.91px;
+    margin-left: 40px;
+}
+
+#tech-skills .skills .devtool {
+    margin-right: 40px;
+    font-size: 25.93px;
+    font-weight: 600;
+    line-height: 35.91px;
+    margin-left: 40px;
+}
+
+#tech-skills .skills .devtool img {
+    margin-top: 34px;
+    width: 150px;
+    margin-bottom: 25px;
+}
+
+#tech-skills .skills .npm {
+    margin-right: 40px;
+    font-size: 29.93px;
+    font-weight: 600;
+    line-height: 35.91px;
+    margin-left: 40px;
+}
+
+#tech-skills .skills .mongodb {
+    margin-right: 40px;
+    font-size: 29.93px;
+    font-weight: 600;
+    line-height: 35.91px;
+    margin-left: 40px;
+}
+
+#tech-skills .skills .react {
+    margin-right: 40px;
+    font-size: 29.93px;
+    font-weight: 600;
+    line-height: 35.91px;
+    margin-left: 40px;
+}
+
+#tech-skills .skills .redux {
+    margin-right: 40px;
+    font-size: 29.93px;
+    font-weight: 600;
+    line-height: 35.91px;
+    margin-left: 40px;
+}
+
+#tech-skills .skills .springboot {
+    margin-right: 40px;
+    font-size: 29.93px;
+    font-weight: 600;
+    line-height: 35.91px;
+    margin-left: 40px;
+}
+
+#tech-skills .skills img {
+    width: 120px;
+    text-align: center;
+    margin-bottom: 15px;
+
+}
+
+#tech-skills .skills h3 {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 35.91px;
+
+}
+
+#softskills {
+    margin-bottom: 70px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#softskills h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+#softskills .soft-skills {
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0px 0px 5px 0px gray;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 10px;
+
+}
+
+#softskills .soft-skills .time {
+    text-align: center;
+}
+
+#softskills .soft-skills .time img {
+    width: 80px;
+    height: 80px;
+    gap: 0px;
+    opacity: 0px;
+    margin-bottom: 10px;
+}
+
+#softskills .soft-skills .time h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#softskills .soft-skills .square-tick {
+    text-align: center;
+}
+
+#softskills .soft-skills .square-tick img {
+    margin-bottom: 10px;
+    width: 80px;
+    height: 80px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+#softskills .soft-skills .square-tick h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#softskills .soft-skills .excellence {
+    text-align: center;
+}
+
+#softskills .soft-skills .excellence img {
+    margin-bottom: 10px;
+    width: 80px;
+    height: 80px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+#softskills .soft-skills .excellence h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#softskills .soft-skills .Vector {
+    text-align: center;
+}
+
+#softskills .soft-skills .Vector img {
+    margin-bottom: 20px;
+    width: 80px;
+    height: 80px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+#softskills .soft-skills .Vector h3 {
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+#projects {
+    margin-bottom: 70px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#projects h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+#wrapper{
+    scroll-behavior: smooth;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#projects .slider-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#projects .slider-container .slide {
+    margin-right: 50px;
+    padding-right: 15px;
+    width: 345px;
+    margin-right: 10px;
+    box-shadow: 0px 0px 2px 0px gray;
+    padding: 10px;
+    background: whitesmoke;
+    border-radius: 10px;
+}
+
+#projects .slider-container .slide img {
+    width: 100%;
+}
+
+#projects .slider-container .slide h3 {
+    font-size: 24px;
+    font-weight: 700;
+    font-family: poppins;
+    line-height: 36px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#projects .slider-container .slide p {
+    width: 100%;
+    font-family: poppins;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #555555;
+
+}
+
+#projects .slider-container .slide .button {
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+    background-color: #0948B4;
+    margin: 10px 0px 10px 0px;
+    border-radius: 5px;
+}
+
+#projects .slider-container .slide .button a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: poppins;
+    padding: 10px;
+}
+
+.slider-container {
+    width: 100%;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+.slides {
+    display: flex;
+}
+
+.navigation {
+    text-align: center;
+    margin-top: 10px;
+}
+
+button {
+    background: none;
+    border: none;
+}
+
+button img {
+    margin-top: 10px;
+    padding: 5px;
+    width: 50px;
+    cursor: pointer;
+}
+
+#experience {
+    margin-bottom: 70px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#experience h2 {
+    font-size: 40px;
+    font-family: Poppins;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+#experience .company-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+#experience .company-details .first-company {
+    box-shadow: 0px 0px 15px 0px gray;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+}
+
+#experience .company-details .first-company .left-one {
+    margin-right: 15px;
+}
+
+#experience .company-details .first-company .left-one img {
+    width: 220px;
+    height: 70px;
+}
+
+#experience .company-details .first-company .left-one .button {
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+    background-color: #0948B4;
+    margin: 10px 0px 10px 0px;
+    border-radius: 5px;
+}
+
+#experience .company-details .first-company .left-one .button a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Poppins';
+    padding: 10px;
+}
+
+#experience .company-details .first-company .right-one h3 {
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: left;
+
+}
+
+#experience .company-details .first-company .right-one .month-para {
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+#experience .company-details .first-company .right-one p {
+    font-family: Poppins;
+    font-size: 12px;
+    font-weight: 400;
+    color: #555555;
+}
+
+#qualification {
+    margin-bottom: 140px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#qualification h2 {
+    font-size: 40px;
+    font-family: Poppins;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+#qualification .qualification-details {
+    display: flex;
+    justify-content: space-between;
+}
+
+#qualification .qualification-details .left-section .ssc {
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+.font-lato {
+    font-family: Lato;
+
+}
+
+.font-poppins {
+    font-family: poppins;
+}
+
+#qualification .qualification-details .left-section .ssc .img-section .Vector {
+    position: absolute;
+    margin-left: -14px;
+    width: 3.9px;
+}
+
+#qualification .qualification-details .left-section .ssc .data-section h2 {
+    margin: 0px;
+    padding-left: 25px;
+    margin-top: -5px;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+#qualification .qualification-details .left-section .ssc .data-section p {
+    margin-left: 30px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    color: #555555;
+}
+
+#qualification .qualification-details .right-section img {
+    width: 590px;
+    height: 358px;
+    gap: 0px;
+    border-radius: 16px 0px 0px 0px;
+    opacity: 0px;
+}
+
+#qualification .qualification-details .right-section p {
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    margin-left: 40px;
+    color: #555555;
+}
+
+footer {
+    background-color: black;
+    height: 40vh;
+    text-align: center;
+}
+
+footer img {
+    width: 201.23px;
+    height: 200px;
+    margin-top: -145px;
+    margin-bottom: 15px;
+    border-radius: 115px;
+    border: 3px solid black;
+}
+
+footer h2 {
+    font-family: Poppins;
+    font-size: 32px;
+    margin-bottom: 10px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #F5F5F5;
+}
+
+footer p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    color: #F5F5F5;
+    margin-bottom: 20px;
+
+}
+
+footer i {
+    margin-right: 5px;
+}
+
+footer a {
+    padding: 10px 24px 10px 24px;
+    border-radius: 5px;
+    background: #0948B4;
+    color: #fff;
+    text-decoration: none;
+    /* font-family: Poppins; */
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+}
+
+.copyright-section {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.copyright-section p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+}
